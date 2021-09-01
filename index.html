@@ -33,7 +33,7 @@ const container = chart.parentNode;
 const library = new Library();
 const runtime = new Runtime(library);
 const main = runtime.module(notebook, name => {
-  if (name === "chart") {
+  if (name === "map") {
     return new Inspector(chart);
   }
 });
